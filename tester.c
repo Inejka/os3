@@ -30,7 +30,7 @@ bool check_read_write() {
         ints[i] = i + 50;
     write_memory(temp, ints, sizeof(int) * 5);
     int *ints_copy = malloc(sizeof(int) * 5);
-    read_memory(temp, ints_copy, sizeof(ints) * 5);
+    read_memory(temp, ints_copy, sizeof(int) * 5);
     for (int i = 0; i < 5; i++)
         if (ints_copy[i] != ints[i])return false;
     return true;

@@ -5,7 +5,7 @@
 #include "tester.h"
 
 int main() {
-    printf("%i",check_meme_manager());
+    printf("%i", check_meme_manager());
     /*
     void *test = get_real_address(temp);
     for (int i = 0; i < 10; i++) {
@@ -25,8 +25,8 @@ int main() {
     for (int i = 0; i < 5; i++)
         printf("%i\n", ints_copy[i]);
     printf("Hello, World!\n");*/
-    //for (int i = 1; i <= 9; i++)
-    //    get_time(10000, 100, i * 100 * 1000);
+    for (int i = 1; i <= 9; i++)
+        get_time(10000, 100, i * 100 * 1000);
     //printf("%f", );
     return 0;
 }
